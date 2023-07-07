@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poudin</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Olá, seja bem vindo!</h1>
+      <p>Conecte-se à sua conta</p>
+    </header>
+
+    <form class="formulario">
+      <fieldset>
+        <label for="email">Loguin</label>
+        <input type="email" id="email" name="email" required />
+      </fieldset>
+
+      <fieldset>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required minlength="6" />
+      </fieldset>
+
+      <fieldset class="formulario1">
+        <input type="checkbox" id="lembrar" name="lembrar" />
+        <label for="lembrar">Lembre-se de mim</label>
+        <p>Esqueceu sua senha?</p>
+      </fieldset>
+    </form>
+
+    <footer>
+      <button class="button" form="my-form">Entrar</button>
+    </footer>
+    <p>
+      Ainda não possui uma conta? <span>Crie uma</span><br />
+      ou entre com
+    </p>
+    <div class="images">
+      <img src="./assets/images/logo-facebook.png" alt="ícone do facebook" />
+      <img src="./assets/images/logo-apple.png" alt="ícone da apple" />
+      <img src="./assets/images/logo-chrome.png" alt="ícone do google chrome" />
+    </div>
+  </body>
+</html>
